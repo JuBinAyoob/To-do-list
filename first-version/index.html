@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/common-styles.css">
+		<title>To Do List</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		
+	</head>
+	<body>
+		<h1 class="header">To Do List</h1>
+		<main class="main-body" id="main-body" >
+			<div class="row main-row">
+				<div onclick="setAllCheckbox()">
+					<input class="all" id="all" type="checkbox">
+					<label class="lbl-select-all">select All</label>
+				</div>
+
+				<div>
+					<input class="text-box" id="text-box" type="text" onkeypress="inputEnter(event)">
+
+				</div>
+				<div class="enter" onclick="appendToDoData()">
+					<i class="fas fa-plus-circle"></i>
+				</div>
+			</div>
+
+			<div id="to-do-list">
+
+			</div>
+		</main>	
+		
+		<script src="js/todolist.js"></script>
+		<noscript>
+			<h3>This site requires Javascript</h3>
+		</noscript>      
+	</body>
+</html>

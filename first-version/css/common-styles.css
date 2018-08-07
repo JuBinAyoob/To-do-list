@@ -1,0 +1,82 @@
+
+.body{
+	min-height: 100%;
+	font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+.header{
+	text-align: center;
+    font-size: 1.5em;
+    background: darkblue;
+    line-height: 48px;
+    border-radius: 6px;
+    width: 100%;
+    color: white;
+}
+
+.main-body{
+	margin:auto;
+	padding: 54px;
+    border-radius: 6px;
+	height: 100%;
+	background-color: skyblue;
+}
+
+.row{
+	width: 100%;
+	display:grid;
+	grid-template-columns:20% 70% 10%;
+	margin-bottom: 10px;
+}
+
+#to-do-list{
+	width: 100%;
+}
+
+.lbl-select-all{
+	position: relative;
+    bottom: 10px;
+}
+
+.enter{
+	padding-left: 20px;
+	line-height: 38px;
+}
+
+.draggable{
+	cursor: all-scroll;
+	background-color: greenyellow;
+    border-radius: 10px;
+}
+
+.all{
+	height: 32px;
+}
+
+.text-box{
+	width: 100%;
+    height: 34px;
+    border: 0;
+}
+
+.text-strike{
+	text-decoration: line-through;
+}
+
+.to-do-font{
+	height: 100%;
+}
+
+.para-to-do-data{
+	word-break:break-all;
+}
+
+.chk-unique{
+	margin-top: 20px;
+}
+
+.delete{
+	height: 34px;
+	padding-left: 20px;
+	padding-top: 17px;
+}
